@@ -15,7 +15,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Load Data
-file_path = "C:\\Users\\Rajiv Ranjan\\OneDrive\\Documents\\bank_marketing_data_new.csv"  # Replace with actual filename in GitHub repo
+file_path = "bank_marketing_data_new.csv"  # Replace with actual filename in GitHub repo
 data = pd.read_csv(file_path)
 
 # Encode categorical features (fixes ValueError issue)
