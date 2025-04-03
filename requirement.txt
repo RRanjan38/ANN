@@ -1,7 +1,9 @@
-streamlit
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-tensorflow
+streamlit==1.44.1
+pandas==2.2.3
+numpy==2.2.4
+scikit-learn==1.4.2
+matplotlib==3.8.3
+seaborn==0.13.2
+tensorflow==2.15.0
+protobuf==3.20.*
+matplotlib-inline==0.1.6
